@@ -29,27 +29,25 @@ Tecnologías utilizadas
 
 ## Estructura del proyecto
 
-text
 2026_TPIN2_G09/
-│
 ├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── public/
-│   └── ...
-│
+│ ├── .gitignore
+| ├── public/
+│ └── src/
+│ ├── app/
+│ ├── components/
+│ └── hooks/
+│ └── useSocket.js
 ├── backend/
-│   ├── docs/
-│   │   ├── script.sql
-│   │   ├── DER.drawio
-│   │   └── DER.png
-│   │
-│   ├── index.js
-│   ├── package.json
-│   └── ...
-│
-├── README.md
-└── .gitignore
+│ ├── .gitignore
+│ ├── index.js
+│ ├── package.json
+│ └── modulos/
+│ └── mysql.js
+├── docs/
+│ ├── DER (.drawio / .png / .pdf)
+│ └── script.sql
+└── README.md
 ```
 
 ## Base de datos
