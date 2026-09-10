@@ -101,7 +101,7 @@ Estas credenciales corresponden a un usuario creado previamente en la base de da
 * Santino Ratto
 * Lorenzo Beccaria
 * Lucio Rosenthal
-* Gabriel Nicolas Benitez
+* Gabriel Benitez
 
 ## Información del proyecto
 
