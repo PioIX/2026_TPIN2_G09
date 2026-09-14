@@ -1,21 +1,19 @@
 {
-  "name": "backend",
+  "name": "ejemplo-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "explicacion fetch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pio": "nodemon --env-file=.pio.env index.js",
+    "home": "nodemon --env-file=.home.env index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Martin Rivas",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "mysql2": "^3.24.4",
-    "socket.io": "^4.8.3"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0"
   }
 }
