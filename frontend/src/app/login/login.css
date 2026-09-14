@@ -1,0 +1,84 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+}
+
+.login-card {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-title {
+  text-align: center;
+  color: #047857;
+  font-size: 1.5rem;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #4b5563;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.login-error {
+  color: #dc2626;
+  font-size: 0.875rem;
+}
+
+.login-toggle {
+  background: none;
+  border: none;
+  color: #047857;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Estilos que usan tus componentes Input y Button */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #059669;
+}
+
+.btn {
+  background-color: #059669;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #047857;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
